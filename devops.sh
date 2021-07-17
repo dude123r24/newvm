@@ -13,7 +13,7 @@ yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 
-yum install docker-ce docker-ce-cli containerd.io
+yum install -y docker-ce docker-ce-cli containerd.io
 systemctl start docker
 docker run hello-world
 
@@ -41,8 +41,4 @@ echo "Password: cat /var/lib/jenkins/secrets/initialAdminPassword"
 
 
 
-yum install -y 
-yum install -y 
-yum install -y 
-yum install -y 
-yum install -y 
+#yum install -y 
