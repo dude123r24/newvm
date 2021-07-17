@@ -4,3 +4,4 @@ dnf install -y kernel-uek-devel-$(uname -r)
 dnf install -y dkms patch libgomp glibc-headers glibc-devel kernel-headers
 yum install -y kernel-devel
 yum install -y elfutils*
+reboot
